@@ -26,9 +26,10 @@ Projeto desenvolvido para testar o site [OLX](https://www.olx.com.br/)
 
 ## Cenário de Teste :pencil: <a name="Testes-realizados"></a> 
 
-* Testar as funcionalidades do site OLX  
+Testar as funcionalidades do site OLX  
 
-Casos de Teste:
+* Casos de Teste:
+
 	1. Colocar uma idade inadequada:  
 		
 	2. Colocar uma idade adequada:  
