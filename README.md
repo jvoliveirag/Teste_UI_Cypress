@@ -1,16 +1,16 @@
 # Teste_UI_Cypress
 Este repositório refere-se à disciplina de Qualidade de Software (S206) do Instituto Nacional de Telecomunicações - INATEL.
 
-<img align="right" width="250" height="154" src="https://logodownload.org/wp-content/uploads/2016/10/olx-logo-13.png">
+<img align="right" width="250" src="https://logodownload.org/wp-content/uploads/2016/10/olx-logo-13.png">
 
 # Teste de interface OLX
 Projeto desenvolvido para testar o site [OLX](https://www.olx.com.br/)
 
-<h4 align="center"> 
+<h4 align="left"> 
 	Autor :pencil2:
 </h4>
 
-<p align="center">
+<p align="left">
  <a href="https://github.com/jvoliveirag">João Victor de Oliveira Gomes Ribeiro</a> 
 </p>
 
@@ -54,13 +54,13 @@ Casos de Teste:
 	npm install cypress
 	```
 * Para abrir o Cypress e rodar os testes acesse o diretório:
-	1. ```
-		test_qa\node_modules\.bin
-		```
+	```
+	test_qa\node_modules\.bin
+	```
 * Então execute, no termninal, o seguinte comando:
-	2. ```
-		npm run cypress:open
-		```
+	```
+	npm run cypress:open
+	```
 #
 
 ## Relatório de testes :clipboard: <a name="Relatórios"></a>
