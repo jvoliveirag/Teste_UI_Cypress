@@ -41,7 +41,7 @@ Testar as funcionalidades do site do jogo Valorant
 		```
 
 		```
-			function createUser(){
+		function createUser(){
     		let hour = new Date().getHours().toString();
     		let min = new Date().getMinutes().toString();
     		let sec = new Date().getSeconds().toString();
@@ -64,7 +64,7 @@ Testar as funcionalidades do site do jogo Valorant
     
     		cy.get(".alert-success").should("contain.text","O nome de usuário deve ser único.") //pode ocorrer de, coincidentemente, o nome gerado já existir e, caso exista a mensagem sera retornada conforme consta no ".should"
     		return user_info;
-			}
+		}
 		```
 
 	2. Colocar a senha incorreta:  
@@ -89,7 +89,10 @@ Testar as funcionalidades do site do jogo Valorant
 		```
 
 	4. Buscar um jogador no ranking:  
-		
+		Nesse caso é feita uma busca por um player específico do ranking.
+		cy.visit('https://playvalorant.com/pt-br/leaderboards/?page=1&act=3e47230a-463c-a301-eb7d-67bb60357d4f');
+        cy.get('#search').type('MIBR frz#2000');
+        cy.get('.btn-primary').click();
 
 	5. Alterar o idioma:  
 

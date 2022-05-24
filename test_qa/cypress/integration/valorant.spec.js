@@ -26,7 +26,9 @@ describe('Cenário de teste: Testar as funcionalidades do site Valorant', () => 
     })
 
     it('4º Caso de teste: Buscar um jogador no ranking.', () => {
-        
+        cy.visit('https://playvalorant.com/pt-br/leaderboards/?page=1&act=3e47230a-463c-a301-eb7d-67bb60357d4f');
+        cy.get('#search').type('MIBR frz#2000');
+        cy.get('.btn-primary').click();
     })
 
     it('5º Caso de teste: Alterar o idioma.', () => {
