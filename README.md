@@ -3,7 +3,7 @@ Este repositório refere-se à disciplina de Qualidade de Software (S206) do Ins
 
 <img align="right" width="250" src="https://upload.wikimedia.org/wikipedia/commons/f/fc/Valorant_logo_-_pink_color_version.svg">
 
-# Teste de interface OLX
+# Teste de interface do site Valorant
 Projeto desenvolvido para testar o site do jogo [Valorant](https://playvalorant.com/)
 
 <h4 align="left"> 
@@ -41,7 +41,7 @@ Testar as funcionalidades do site do jogo Valorant
 		```
 
 		```
-		function createUser(){
+			function createUser(){
     		let hour = new Date().getHours().toString();
     		let min = new Date().getMinutes().toString();
     		let sec = new Date().getSeconds().toString();
@@ -64,7 +64,7 @@ Testar as funcionalidades do site do jogo Valorant
     
     		cy.get(".alert-success").should("contain.text","O nome de usuário deve ser único.") //pode ocorrer de, coincidentemente, o nome gerado já existir e, caso exista a mensagem sera retornada conforme consta no ".should"
     		return user_info;
-		}
+			}
 		```
 
 	2. Colocar a senha incorreta:  
